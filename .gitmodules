@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:timothysugar/timothysugar.github.io.git
 	branch = master
+[submodule "themes/hugo-goa"]
+	path = themes/hugo-goa
+	url = git@github.com:shenoybr/hugo-goa.git

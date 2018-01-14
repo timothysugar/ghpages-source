@@ -1,4 +1,68 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "timsu.gr"
-theme = "ananke"
+## Basic Configuration
+
+baseurl = "https://timsu.gr/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-GB"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Tim Sugar"
+title = "Tim Sugar"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+## disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+## googleAnalytics = "XYZ"
+## enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Tim Sugar"
+intro = "intro"
+description = "description"
+authorimage = "headshot.jpg"
+dateformat = "2 Jan 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "timothysugar"
+## instagram = "<username>"
+## xing = "<username>"
+## linkedin = "<username>"
+## twitter = "<username>"
+## facebook = "<username>"
+## google = "<username>"
+## stackoverflow = "<username>"
+email = "timothysugar@gmail.com"
+
+## Extras
+[params.extra]
+## copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
