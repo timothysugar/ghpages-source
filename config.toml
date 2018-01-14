@@ -1,31 +1,31 @@
 ## Basic Configuration
 
-baseurl = "https://timsu.gr/" 
+baseurl = "https://shenoybr.github.io/hugo-goa-demo/" 
 builddrafts = false
 canonifyurls = false
-languageCode = "en-GB"
+languageCode = "en-US"
 
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Tim Sugar"
-title = "Tim Sugar"
+author = "Erlich Bachman"
+title = "Erlich Bachman"
 
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-## disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-## googleAnalytics = "XYZ"
-## enableRobotsTXT = true
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Tim Sugar"
-intro = "intro"
-description = "description"
+author = "Erlich Bachman"
+intro = "Startup Guru Extraordinaire"
+description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
 authorimage = "headshot.jpg"
-dateformat = "2 Jan 2006"
+dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
@@ -34,21 +34,20 @@ keywords = "minimalist,blog,goa,hugo,developer"
 
 ## Social Accounts
 [params.social]
-github = "timothysugar"
-## instagram = "<username>"
-## xing = "<username>"
-## linkedin = "<username>"
-## twitter = "<username>"
-## facebook = "<username>"
-## google = "<username>"
-## stackoverflow = "<username>"
-email = "timothysugar@gmail.com"
+github = "<username>"
+instagram = "<username>"
+linkedin = "<username>"
+twitter = "<username>"
+facebook = "<username>"
+google = "<username>"
+stackoverflow = "<username>"
+email = "you@example.com"
 
 ## Extras
 [params.extra]
-## copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = true
-highlightjs = true
+hightlightjs = true
 
 ## Main Menu
 [[menu.main]]
